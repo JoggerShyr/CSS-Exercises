@@ -42,8 +42,10 @@ header, footer {
 /* WRITE YOUR CODE BELLOW */
 body {
   font-family: 'Courier New', Courier, monospace;
+  /*
   font-weight: bolder;
   font-size: 16px;
+  */
 }
 
 header {
@@ -86,9 +88,9 @@ nav ul {
   list-style-type: none;
 }
 
-nav li a {
-  margin: 10px;
-  padding: 7px;
+nav li {
+  margin: 5px;
+  padding: 15px;
   border: 2px solid #a66;
   border-radius: 5px;
   text-align: center;
