@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+  <head>
+    <meta charset="utf-8">
+    <title>Simple Float Example</title>
+    <style type="text/css">
+    body {
+      width: 90%;
+      max-width: 900px;
+      margin: 0 auto;
+      font: 0.9em/1.2 Arial, Helvetica, sans-serif;
+    }
+    .box {
+      width: 150px;
+      height: 150px;
+      border: 2px solid #a66;
+      border-radius: 10px;
+      text-align: center;
+      line-height: 150px;
+      background-color: #a66;
+      /* float */
+      float: left;
+      margin: .5em;
+    }
+    .special {
+      background-color: rgb(79, 185, 227);
+      padding: 10px;
+      color: #fff;
+    }
+    .cleared {
+      clear: left;
+    }
+    </style>
+  </head>
+  <body>
+    <h1>Spmple Float Example</h1>
+    <div class="box">Float Element</div>
+    <p class="special">Paragraph 1: Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis eaque, doloremque eum, eveniet delectus ab mollitia odit sapiente soluta qui explicabo molestias. Quis ipsa blanditiis assumenda eius suscipit quas nobis.</p>
+    <p class="cleared">Paragaph 2: Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam deserunt voluptate dolorum perferendis nobis dicta! Similique, possimus! Dolores in deleniti nihil debitis nobis harum totam, asperiores sed sunt obcaecati optio.</p>
+    <p>Paragraph 3: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque cupiditate atque reiciendis repellat sit possimus id commodi accusamus cum rem, iure ea recusandae velit facilis tempora, eaque dignissimos voluptatibus veritatis!</p>
+  </body>
+</html>

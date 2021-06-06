@@ -45,6 +45,7 @@ header, footer {
 body {
   /*
   font-family: 'Courier New', Courier, monospace;
+  /*
   font-weight: bolder;
   font-family: "source-han-sans-cjk-tc", "source-sans-pro", sans-serif;
   */
@@ -52,6 +53,7 @@ body {
   font-style: normal;
   font-weight: 200;
   font-size: 16px;
+  */
 }
 
 header {
@@ -95,8 +97,8 @@ nav ul {
 }
 
 nav li {
-  margin: 10px;
-  padding: 7px;
+  margin: 5px;
+  padding: 15px;
   border: 2px solid #a66;
   border-radius: 5px;
   text-align: center;
